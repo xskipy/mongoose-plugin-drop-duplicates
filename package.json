@@ -1,6 +1,6 @@
 {
-  "name": "mongoose-plugin-remove-duplicate",
-  "version": "0.0.1",
+  "name": "mongoose-plugin-drop-duplicates",
+  "version": "0.0.0",
   "description": "Simple plugin that enforces unique fields within documents by dropping existing duplications.",
   "main": "index.js",
   "scripts": {
@@ -8,12 +8,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ycmjason/mongoose-plugin-drop-duplicate.git"
+    "url": "git+https://github.com/ycmjason/mongoose-plugin-drop-duplicates.git"
   },
-  "author": "Jason Yu",
+  "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ycmjason/mongoose-plugin-drop-duplicate/issues"
+    "url": "https://github.com/ycmjason/mongoose-plugin-drop-duplicates/issues"
   },
-  "homepage": "https://github.com/ycmjason/mongoose-plugin-drop-duplicate#readme"
+  "homepage": "https://github.com/ycmjason/mongoose-plugin-drop-duplicates#readme"
 }
