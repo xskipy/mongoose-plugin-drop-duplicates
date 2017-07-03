@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/ycmjason/mongoose-plugin-drop-duplicate.git"
   },
-  "author": "",
+  "author": "Jason Yu",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/ycmjason/mongoose-plugin-drop-duplicate/issues"
