@@ -1,0 +1,19 @@
+{
+  "name": "mongoose-plugin-remove-duplicate",
+  "version": "0.0.1",
+  "description": "e",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ycmjason/mongoose-plugin-drop-duplicate.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ycmjason/mongoose-plugin-drop-duplicate/issues"
+  },
+  "homepage": "https://github.com/ycmjason/mongoose-plugin-drop-duplicate#readme"
+}
