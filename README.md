@@ -1,9 +1,9 @@
-# mongoose-plugin-drop-duplicate
+# mongoose-plugin-drop-duplicates
 A simple plugin that enforces unique fields within documents by dropping existing duplications.
 
 ## Install
 ```
-npm install --save mongoose-plugin-drop-duplicate
+npm install --save mongoose-plugin-drop-duplicates
 ```
 
 ## Uaage
@@ -18,7 +18,7 @@ const schema = new Schema({
   }
 });
 
-schema.plugin(require('mongoose-plugin-drop-duplicate'));
+schema.plugin(require('mongoose-plugin-drop-duplicates'));
 
 const Subscription = mongoose.model('Subscription', schema);
 
