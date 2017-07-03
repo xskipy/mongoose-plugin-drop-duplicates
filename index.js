@@ -2,10 +2,8 @@ module.exports = (schema) => {
   const uniquePaths = Object.keys(schema.paths).filter(p => schema.paths[p].options.dropDups);
   const dropDuplicatesHook = function (next) {
     const Model = this.constructor;
-    const promises = [];
-    uniquePaths.forEach(uniquePath => {
-      promises.push(Model.remove({[uniquePath]: this[uniquePath]}));
-    });
+
+    const promises = uniquePaths.map(p => Model.remove({[p]: this[p]}));
 
     Promise.all(promises).then(next)
       .catch(console.error.bind(console));
