@@ -1,6 +1,6 @@
 {
   "name": "mongoose-plugin-remove-duplicate",
-  "version": "0.0.1",
+  "version": "0.0.0",
   "description": "Simple plugin that enforces unique fields within documents by dropping existing duplications.",
   "main": "index.js",
   "scripts": {
