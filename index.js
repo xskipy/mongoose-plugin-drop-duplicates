@@ -3,7 +3,7 @@ module.exports = (schema) => {
   const dropDuplicatesHook = function (next) {
     const Model = this.constructor;
 
-    const promises = uniquePaths.map(p => Model.remove({[p]: this[p]}));
+    const promises = uniquePaths.map(p => Model.deleteMany({[p]: this[p]}));
 
     Promise.all(promises).then(next)
       .catch(console.error.bind(console));
