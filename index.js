@@ -5,7 +5,8 @@ module.exports = (schema) => {
 
     const promises = uniquePaths.map(p => Model.deleteMany({[p]: this[p]}));
 
-    Promise.all(promises).then(next)
+    // Consider logging discarded data
+    Promise.all(promises).then(() => next())
       .catch(console.error.bind(console));
   };
 
